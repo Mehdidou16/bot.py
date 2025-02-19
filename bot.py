@@ -92,4 +92,4 @@ class QuestionButton(discord.ui.Button):
     async def callback(self, interaction: discord.Interaction):  
         await interaction.response.send_message(self.response, ephemeral=True)  
 
-bot.run("MTEzMjQ1OTk3ODQzNTg2MjU2OA.GScNSl.vt-Ms3XIGKS9vzCtg2OlpRxtOtanFJlGVtxtdQ")
+bot.run("YOUR_BOT_TOKKEN")
